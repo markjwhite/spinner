@@ -1,5 +1,5 @@
 //refactor of spinner1.js
-const spinnerArr = ['\r|', '\r/', '\r-', '\r\\', '\r|', '\r|', '\r/', '\r-', '\r\\', '\r|', '\n']
+const spinnerArr = ['\r|', '\r/', '\r-', '\r\\', '\r|', '\r|', '\r/', '\r-', '\r\\', '\r|', '\n'];
 const spinner = (arr) => {
   let timer = 0;
   for (let i = 0; i < arr.length; i++) {
